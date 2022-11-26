@@ -5,7 +5,9 @@ use_frameworks!
 
 target 'KimmsObjCDemo' do
 
+  pod 'FMDB'
 	pod 'Masonry'
 	pod 'ReactiveObjC'
+  pod 'YYKit'
 
 end

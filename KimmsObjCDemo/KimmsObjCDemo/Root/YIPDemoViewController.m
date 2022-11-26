@@ -5,18 +5,20 @@
 //  Created by Kimm on 2022/11/25.
 //
 
-#import "ViewController.h"
+#import "YIPDemoViewController.h"
 #import <Masonry/Masonry.h>
 
-@interface ViewController ()
+@interface YIPDemoViewController ()
 
 @end
 
-@implementation ViewController
+@implementation YIPDemoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     
     UILabel *label = [UILabel new];
     label.text = @"Hi~ I am Kimm";

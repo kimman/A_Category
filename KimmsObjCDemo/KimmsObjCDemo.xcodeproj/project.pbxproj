@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3D687617293113EF0006DD48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687616293113EF0006DD48 /* AppDelegate.m */; };
-		3D68761A293113EF0006DD48 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687619293113EF0006DD48 /* SceneDelegate.m */; };
-		3D68761D293113EF0006DD48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68761C293113EF0006DD48 /* ViewController.m */; };
-		3D687620293113EF0006DD48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D68761E293113EF0006DD48 /* Main.storyboard */; };
+		3D68761D293113EF0006DD48 /* YIPDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68761C293113EF0006DD48 /* YIPDemoViewController.m */; };
 		3D687622293113F00006DD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D687621293113F00006DD48 /* Assets.xcassets */; };
-		3D687625293113F00006DD48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D687623293113F00006DD48 /* LaunchScreen.storyboard */; };
 		3D687628293113F00006DD48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687627293113F00006DD48 /* main.m */; };
 		3D687632293113F10006DD48 /* KimmsObjCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687631293113F10006DD48 /* KimmsObjCDemoTests.m */; };
 		3D68763C293113F10006DD48 /* KimmsObjCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68763B293113F10006DD48 /* KimmsObjCDemoUITests.m */; };
@@ -41,13 +38,9 @@
 		3D687612293113EF0006DD48 /* KimmsObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimmsObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D687615293113EF0006DD48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D687616293113EF0006DD48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D687618293113EF0006DD48 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3D687619293113EF0006DD48 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3D68761B293113EF0006DD48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D68761C293113EF0006DD48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3D68761F293113EF0006DD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D68761B293113EF0006DD48 /* YIPDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPDemoViewController.h; sourceTree = "<group>"; };
+		3D68761C293113EF0006DD48 /* YIPDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPDemoViewController.m; sourceTree = "<group>"; };
 		3D687621293113F00006DD48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D687624293113F00006DD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D687626293113F00006DD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D687627293113F00006DD48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D68762D293113F10006DD48 /* KimmsObjCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimmsObjCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D269BE52932134500461A91 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				3D687615293113EF0006DD48 /* AppDelegate.h */,
+				3D687616293113EF0006DD48 /* AppDelegate.m */,
+				3D68761B293113EF0006DD48 /* YIPDemoViewController.h */,
+				3D68761C293113EF0006DD48 /* YIPDemoViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		3D687609293113EF0006DD48 = {
 			isa = PBXGroup;
 			children = (
@@ -111,15 +115,8 @@
 		3D687614293113EF0006DD48 /* KimmsObjCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3D687615293113EF0006DD48 /* AppDelegate.h */,
-				3D687616293113EF0006DD48 /* AppDelegate.m */,
-				3D687618293113EF0006DD48 /* SceneDelegate.h */,
-				3D687619293113EF0006DD48 /* SceneDelegate.m */,
-				3D68761B293113EF0006DD48 /* ViewController.h */,
-				3D68761C293113EF0006DD48 /* ViewController.m */,
-				3D68761E293113EF0006DD48 /* Main.storyboard */,
+				3D269BE52932134500461A91 /* Root */,
 				3D687621293113F00006DD48 /* Assets.xcassets */,
-				3D687623293113F00006DD48 /* LaunchScreen.storyboard */,
 				3D687626293113F00006DD48 /* Info.plist */,
 				3D687627293113F00006DD48 /* main.m */,
 			);
@@ -157,7 +154,6 @@
 				B5976B9B8063D34136BED379 /* Pods-KimmsObjCDemo.debug.xcconfig */,
 				E8C85A76D8E1647AB632D24E /* Pods-KimmsObjCDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -226,6 +222,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = YIP;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					3D687611293113EF0006DD48 = {
@@ -266,9 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D687625293113F00006DD48 /* LaunchScreen.storyboard in Resources */,
 				3D687622293113F00006DD48 /* Assets.xcassets in Resources */,
-				3D687620293113EF0006DD48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,10 +330,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D68761D293113EF0006DD48 /* ViewController.m in Sources */,
+				3D68761D293113EF0006DD48 /* YIPDemoViewController.m in Sources */,
 				3D687617293113EF0006DD48 /* AppDelegate.m in Sources */,
 				3D687628293113F00006DD48 /* main.m in Sources */,
-				3D68761A293113EF0006DD48 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,25 +367,6 @@
 			targetProxy = 3D687638293113F10006DD48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3D68761E293113EF0006DD48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D68761F293113EF0006DD48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3D687623293113F00006DD48 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D687624293113F00006DD48 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3D68763F293113F10006DD48 /* Debug */ = {
@@ -516,8 +491,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KimmsObjCDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -544,8 +519,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KimmsObjCDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
