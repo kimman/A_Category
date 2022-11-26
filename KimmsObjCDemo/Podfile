@@ -1,0 +1,11 @@
+platform :ios, '11.0'
+use_frameworks!
+
+#project 'KimmsObjCDemo.xcodeproj' 
+
+target 'KimmsObjCDemo' do
+
+	pod 'Masonry'
+	pod 'ReactiveObjC'
+
+end

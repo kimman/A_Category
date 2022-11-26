@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D687617293113EF0006DD48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687616293113EF0006DD48 /* AppDelegate.m */; };
+		3D68761A293113EF0006DD48 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687619293113EF0006DD48 /* SceneDelegate.m */; };
+		3D68761D293113EF0006DD48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68761C293113EF0006DD48 /* ViewController.m */; };
+		3D687620293113EF0006DD48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D68761E293113EF0006DD48 /* Main.storyboard */; };
+		3D687622293113F00006DD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D687621293113F00006DD48 /* Assets.xcassets */; };
+		3D687625293113F00006DD48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D687623293113F00006DD48 /* LaunchScreen.storyboard */; };
+		3D687628293113F00006DD48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687627293113F00006DD48 /* main.m */; };
+		3D687632293113F10006DD48 /* KimmsObjCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687631293113F10006DD48 /* KimmsObjCDemoTests.m */; };
+		3D68763C293113F10006DD48 /* KimmsObjCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68763B293113F10006DD48 /* KimmsObjCDemoUITests.m */; };
+		3D68763E293113F10006DD48 /* KimmsObjCDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68763D293113F10006DD48 /* KimmsObjCDemoUITestsLaunchTests.m */; };
+		94A244E35DFABF3527C446F8 /* Pods_KimmsObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD47DB1AD44596863A8493BC /* Pods_KimmsObjCDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D68762E293113F10006DD48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D68760A293113EF0006DD48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D687611293113EF0006DD48;
+			remoteInfo = KimmsObjCDemo;
+		};
+		3D687638293113F10006DD48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D68760A293113EF0006DD48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D687611293113EF0006DD48;
+			remoteInfo = KimmsObjCDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D687612293113EF0006DD48 /* KimmsObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimmsObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D687615293113EF0006DD48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D687616293113EF0006DD48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D687618293113EF0006DD48 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3D687619293113EF0006DD48 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3D68761B293113EF0006DD48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D68761C293113EF0006DD48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D68761F293113EF0006DD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D687621293113F00006DD48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D687624293113F00006DD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D687626293113F00006DD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D687627293113F00006DD48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D68762D293113F10006DD48 /* KimmsObjCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimmsObjCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D687631293113F10006DD48 /* KimmsObjCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KimmsObjCDemoTests.m; sourceTree = "<group>"; };
+		3D687637293113F10006DD48 /* KimmsObjCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimmsObjCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D68763B293113F10006DD48 /* KimmsObjCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KimmsObjCDemoUITests.m; sourceTree = "<group>"; };
+		3D68763D293113F10006DD48 /* KimmsObjCDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KimmsObjCDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		AD47DB1AD44596863A8493BC /* Pods_KimmsObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KimmsObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5976B9B8063D34136BED379 /* Pods-KimmsObjCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KimmsObjCDemo.debug.xcconfig"; path = "Target Support Files/Pods-KimmsObjCDemo/Pods-KimmsObjCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E8C85A76D8E1647AB632D24E /* Pods-KimmsObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KimmsObjCDemo.release.xcconfig"; path = "Target Support Files/Pods-KimmsObjCDemo/Pods-KimmsObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D68760F293113EF0006DD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A244E35DFABF3527C446F8 /* Pods_KimmsObjCDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D68762A293113F10006DD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D687634293113F10006DD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D687609293113EF0006DD48 = {
+			isa = PBXGroup;
+			children = (
+				3D687614293113EF0006DD48 /* KimmsObjCDemo */,
+				3D687630293113F10006DD48 /* KimmsObjCDemoTests */,
+				3D68763A293113F10006DD48 /* KimmsObjCDemoUITests */,
+				3D687613293113EF0006DD48 /* Products */,
+				FD662FE279C8A48B4BF31372 /* Pods */,
+				D57321420A06D29601BFBF71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D687613293113EF0006DD48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D687612293113EF0006DD48 /* KimmsObjCDemo.app */,
+				3D68762D293113F10006DD48 /* KimmsObjCDemoTests.xctest */,
+				3D687637293113F10006DD48 /* KimmsObjCDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D687614293113EF0006DD48 /* KimmsObjCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D687615293113EF0006DD48 /* AppDelegate.h */,
+				3D687616293113EF0006DD48 /* AppDelegate.m */,
+				3D687618293113EF0006DD48 /* SceneDelegate.h */,
+				3D687619293113EF0006DD48 /* SceneDelegate.m */,
+				3D68761B293113EF0006DD48 /* ViewController.h */,
+				3D68761C293113EF0006DD48 /* ViewController.m */,
+				3D68761E293113EF0006DD48 /* Main.storyboard */,
+				3D687621293113F00006DD48 /* Assets.xcassets */,
+				3D687623293113F00006DD48 /* LaunchScreen.storyboard */,
+				3D687626293113F00006DD48 /* Info.plist */,
+				3D687627293113F00006DD48 /* main.m */,
+			);
+			path = KimmsObjCDemo;
+			sourceTree = "<group>";
+		};
+		3D687630293113F10006DD48 /* KimmsObjCDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D687631293113F10006DD48 /* KimmsObjCDemoTests.m */,
+			);
+			path = KimmsObjCDemoTests;
+			sourceTree = "<group>";
+		};
+		3D68763A293113F10006DD48 /* KimmsObjCDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D68763B293113F10006DD48 /* KimmsObjCDemoUITests.m */,
+				3D68763D293113F10006DD48 /* KimmsObjCDemoUITestsLaunchTests.m */,
+			);
+			path = KimmsObjCDemoUITests;
+			sourceTree = "<group>";
+		};
+		D57321420A06D29601BFBF71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD47DB1AD44596863A8493BC /* Pods_KimmsObjCDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD662FE279C8A48B4BF31372 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5976B9B8063D34136BED379 /* Pods-KimmsObjCDemo.debug.xcconfig */,
+				E8C85A76D8E1647AB632D24E /* Pods-KimmsObjCDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D687611293113EF0006DD48 /* KimmsObjCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D687641293113F10006DD48 /* Build configuration list for PBXNativeTarget "KimmsObjCDemo" */;
+			buildPhases = (
+				B825F9168A4046DF1CD1533D /* [CP] Check Pods Manifest.lock */,
+				3D68760E293113EF0006DD48 /* Sources */,
+				3D68760F293113EF0006DD48 /* Frameworks */,
+				3D687610293113EF0006DD48 /* Resources */,
+				D7F143BCC5034061B010AA78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KimmsObjCDemo;
+			productName = KimmsObjCDemo;
+			productReference = 3D687612293113EF0006DD48 /* KimmsObjCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D68762C293113F10006DD48 /* KimmsObjCDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D687644293113F10006DD48 /* Build configuration list for PBXNativeTarget "KimmsObjCDemoTests" */;
+			buildPhases = (
+				3D687629293113F10006DD48 /* Sources */,
+				3D68762A293113F10006DD48 /* Frameworks */,
+				3D68762B293113F10006DD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D68762F293113F10006DD48 /* PBXTargetDependency */,
+			);
+			name = KimmsObjCDemoTests;
+			productName = KimmsObjCDemoTests;
+			productReference = 3D68762D293113F10006DD48 /* KimmsObjCDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D687636293113F10006DD48 /* KimmsObjCDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D687647293113F10006DD48 /* Build configuration list for PBXNativeTarget "KimmsObjCDemoUITests" */;
+			buildPhases = (
+				3D687633293113F10006DD48 /* Sources */,
+				3D687634293113F10006DD48 /* Frameworks */,
+				3D687635293113F10006DD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D687639293113F10006DD48 /* PBXTargetDependency */,
+			);
+			name = KimmsObjCDemoUITests;
+			productName = KimmsObjCDemoUITests;
+			productReference = 3D687637293113F10006DD48 /* KimmsObjCDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D68760A293113EF0006DD48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3D687611293113EF0006DD48 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3D68762C293113F10006DD48 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3D687611293113EF0006DD48;
+					};
+					3D687636293113F10006DD48 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3D687611293113EF0006DD48;
+					};
+				};
+			};
+			buildConfigurationList = 3D68760D293113EF0006DD48 /* Build configuration list for PBXProject "KimmsObjCDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D687609293113EF0006DD48;
+			productRefGroup = 3D687613293113EF0006DD48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D687611293113EF0006DD48 /* KimmsObjCDemo */,
+				3D68762C293113F10006DD48 /* KimmsObjCDemoTests */,
+				3D687636293113F10006DD48 /* KimmsObjCDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D687610293113EF0006DD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D687625293113F00006DD48 /* LaunchScreen.storyboard in Resources */,
+				3D687622293113F00006DD48 /* Assets.xcassets in Resources */,
+				3D687620293113EF0006DD48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D68762B293113F10006DD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D687635293113F10006DD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B825F9168A4046DF1CD1533D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KimmsObjCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F143BCC5034061B010AA78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KimmsObjCDemo/Pods-KimmsObjCDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KimmsObjCDemo/Pods-KimmsObjCDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KimmsObjCDemo/Pods-KimmsObjCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D68760E293113EF0006DD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D68761D293113EF0006DD48 /* ViewController.m in Sources */,
+				3D687617293113EF0006DD48 /* AppDelegate.m in Sources */,
+				3D687628293113F00006DD48 /* main.m in Sources */,
+				3D68761A293113EF0006DD48 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D687629293113F10006DD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D687632293113F10006DD48 /* KimmsObjCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D687633293113F10006DD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D68763C293113F10006DD48 /* KimmsObjCDemoUITests.m in Sources */,
+				3D68763E293113F10006DD48 /* KimmsObjCDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D68762F293113F10006DD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D687611293113EF0006DD48 /* KimmsObjCDemo */;
+			targetProxy = 3D68762E293113F10006DD48 /* PBXContainerItemProxy */;
+		};
+		3D687639293113F10006DD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D687611293113EF0006DD48 /* KimmsObjCDemo */;
+			targetProxy = 3D687638293113F10006DD48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D68761E293113EF0006DD48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D68761F293113EF0006DD48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D687623293113F00006DD48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D687624293113F00006DD48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D68763F293113F10006DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D687640293113F10006DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D687642293113F10006DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5976B9B8063D34136BED379 /* Pods-KimmsObjCDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JXDCNHFA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KimmsObjCDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimm.cn.KimmsObjCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D687643293113F10006DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C85A76D8E1647AB632D24E /* Pods-KimmsObjCDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JXDCNHFA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KimmsObjCDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimm.cn.KimmsObjCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D687645293113F10006DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JXDCNHFA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimm.cn.KimmsObjCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KimmsObjCDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KimmsObjCDemo";
+			};
+			name = Debug;
+		};
+		3D687646293113F10006DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JXDCNHFA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimm.cn.KimmsObjCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KimmsObjCDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KimmsObjCDemo";
+			};
+			name = Release;
+		};
+		3D687648293113F10006DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JXDCNHFA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimm.cn.KimmsObjCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KimmsObjCDemo;
+			};
+			name = Debug;
+		};
+		3D687649293113F10006DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JXDCNHFA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimm.cn.KimmsObjCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KimmsObjCDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D68760D293113EF0006DD48 /* Build configuration list for PBXProject "KimmsObjCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D68763F293113F10006DD48 /* Debug */,
+				3D687640293113F10006DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D687641293113F10006DD48 /* Build configuration list for PBXNativeTarget "KimmsObjCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D687642293113F10006DD48 /* Debug */,
+				3D687643293113F10006DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D687644293113F10006DD48 /* Build configuration list for PBXNativeTarget "KimmsObjCDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D687645293113F10006DD48 /* Debug */,
+				3D687646293113F10006DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D687647293113F10006DD48 /* Build configuration list for PBXNativeTarget "KimmsObjCDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D687648293113F10006DD48 /* Debug */,
+				3D687649293113F10006DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D68760A293113EF0006DD48 /* Project object */;
+}
