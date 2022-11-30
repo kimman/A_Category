@@ -39,7 +39,7 @@
             @"rows": @[
                 @{
                     @"title": @"音视频",
-                    @"viewController": @"YIPFunctionViewController"
+                    @"viewController": @"YIPAudioVedioDemoViewController"
                 },
                 @{
                     @"title": @"登录",

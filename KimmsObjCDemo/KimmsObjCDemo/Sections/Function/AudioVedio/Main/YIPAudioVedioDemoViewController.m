@@ -26,7 +26,7 @@
             @"rows": @[
                 @{
                     @"title": @"音频采集",
-                    @"viewController": @"abc"
+                    @"viewController": @"YIPAudioCaptureViewController"
                 },
                 @{
                     @"title": @"音频播放",
@@ -40,6 +40,12 @@
         },
         
     ];
+}
+
+- (void)didSelectedItem:(YIPTableViewCellItem *)item {
+    Class cls = NSClassFromString(item.viewController);
+    UIViewController *ctrl = [[cls alloc] init];
+    [self.navigationController pushViewController:ctrl animated:YES];
 }
 
 @end

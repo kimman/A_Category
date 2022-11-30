@@ -12,6 +12,9 @@
 		3D269BEB293313C500461A91 /* YIPTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D269BEA293313C500461A91 /* YIPTableViewRow.m */; };
 		3D269BEE2933148100461A91 /* YIPTableViewCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D269BED2933148100461A91 /* YIPTableViewCellItem.m */; };
 		3D269BF12933149900461A91 /* YIPTableViewSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D269BF02933149900461A91 /* YIPTableViewSectionItem.m */; };
+		3D3F96D729373FCD004983FF /* YIPAudioConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F96D629373FCD004983FF /* YIPAudioConfig.m */; };
+		3D3F96DA2937425D004983FF /* YIPAudioCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F96D92937425D004983FF /* YIPAudioCapture.m */; };
+		3D3F96DD293758E7004983FF /* YIPAudioCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F96DC293758E7004983FF /* YIPAudioCaptureViewController.m */; };
 		3D687617293113EF0006DD48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687616293113EF0006DD48 /* AppDelegate.m */; };
 		3D68761D293113EF0006DD48 /* YIPDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68761C293113EF0006DD48 /* YIPDemoViewController.m */; };
 		3D687622293113F00006DD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D687621293113F00006DD48 /* Assets.xcassets */; };
@@ -50,6 +53,12 @@
 		3D269BED2933148100461A91 /* YIPTableViewCellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPTableViewCellItem.m; sourceTree = "<group>"; };
 		3D269BEF2933149900461A91 /* YIPTableViewSectionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPTableViewSectionItem.h; sourceTree = "<group>"; };
 		3D269BF02933149900461A91 /* YIPTableViewSectionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPTableViewSectionItem.m; sourceTree = "<group>"; };
+		3D3F96D529373FCD004983FF /* YIPAudioConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPAudioConfig.h; sourceTree = "<group>"; };
+		3D3F96D629373FCD004983FF /* YIPAudioConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPAudioConfig.m; sourceTree = "<group>"; };
+		3D3F96D82937425D004983FF /* YIPAudioCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPAudioCapture.h; sourceTree = "<group>"; };
+		3D3F96D92937425D004983FF /* YIPAudioCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPAudioCapture.m; sourceTree = "<group>"; };
+		3D3F96DB293758E7004983FF /* YIPAudioCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPAudioCaptureViewController.h; sourceTree = "<group>"; };
+		3D3F96DC293758E7004983FF /* YIPAudioCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPAudioCaptureViewController.m; sourceTree = "<group>"; };
 		3D687612293113EF0006DD48 /* KimmsObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimmsObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D687615293113EF0006DD48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D687616293113EF0006DD48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,17 +106,18 @@
 		3D112EF32936FAEC00E039FB /* Function */ = {
 			isa = PBXGroup;
 			children = (
-				3D112EF52936FB2A00E039FB /* Main */,
-				3D112EF42936FB0F00E039FB /* Audio */,
+				3D112EF42936FB0F00E039FB /* AudioVedio */,
 			);
 			path = Function;
 			sourceTree = "<group>";
 		};
-		3D112EF42936FB0F00E039FB /* Audio */ = {
+		3D112EF42936FB0F00E039FB /* AudioVedio */ = {
 			isa = PBXGroup;
 			children = (
+				3D3F96D429373FB1004983FF /* Audio */,
+				3D112EF52936FB2A00E039FB /* Main */,
 			);
-			path = Audio;
+			path = AudioVedio;
 			sourceTree = "<group>";
 		};
 		3D112EF52936FB2A00E039FB /* Main */ = {
@@ -160,6 +170,19 @@
 				3D112EFA2936FBCE00E039FB /* YIPTableViewController.m */,
 			);
 			path = Table;
+			sourceTree = "<group>";
+		};
+		3D3F96D429373FB1004983FF /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F96D529373FCD004983FF /* YIPAudioConfig.h */,
+				3D3F96D629373FCD004983FF /* YIPAudioConfig.m */,
+				3D3F96D82937425D004983FF /* YIPAudioCapture.h */,
+				3D3F96D92937425D004983FF /* YIPAudioCapture.m */,
+				3D3F96DB293758E7004983FF /* YIPAudioCaptureViewController.h */,
+				3D3F96DC293758E7004983FF /* YIPAudioCaptureViewController.m */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 		3D687609293113EF0006DD48 = {
@@ -405,11 +428,14 @@
 			files = (
 				3D68761D293113EF0006DD48 /* YIPDemoViewController.m in Sources */,
 				3D269BEB293313C500461A91 /* YIPTableViewRow.m in Sources */,
+				3D3F96DA2937425D004983FF /* YIPAudioCapture.m in Sources */,
 				3D269BEE2933148100461A91 /* YIPTableViewCellItem.m in Sources */,
 				3D112EF82936FB5800E039FB /* YIPAudioVedioDemoViewController.m in Sources */,
+				3D3F96D729373FCD004983FF /* YIPAudioConfig.m in Sources */,
 				3D112EFB2936FBCE00E039FB /* YIPTableViewController.m in Sources */,
 				3D269BF12933149900461A91 /* YIPTableViewSectionItem.m in Sources */,
 				3D687617293113EF0006DD48 /* AppDelegate.m in Sources */,
+				3D3F96DD293758E7004983FF /* YIPAudioCaptureViewController.m in Sources */,
 				3D687628293113F00006DD48 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +594,9 @@
 				DEVELOPMENT_TEAM = 6JXDCNHFA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KimmsObjCDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KimmsObjCDemo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App to use Microphone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -596,6 +625,9 @@
 				DEVELOPMENT_TEAM = 6JXDCNHFA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KimmsObjCDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KimmsObjCDemo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App to use Microphone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
