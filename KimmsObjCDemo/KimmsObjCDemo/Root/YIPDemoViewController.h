@@ -6,8 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YIPTableViewController.h"
 
-@interface YIPDemoViewController : UIViewController
+@interface YIPDemoViewController : YIPTableViewController
 
 
 @end

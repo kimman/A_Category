@@ -1,20 +1,32 @@
 PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - FMDB
   - Masonry
   - ReactiveObjC
+  - YYKit
 
 SPEC REPOS:
   trunk:
+    - FMDB
     - Masonry
     - ReactiveObjC
+    - YYKit
 
 SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 71cd87fffa14350feacc253ed7cc1e89c4c6bde3
+PODFILE CHECKSUM: 99dd59a80647e7be7b050d157f34c1a8fe2a1aea
 
 COCOAPODS: 1.11.3

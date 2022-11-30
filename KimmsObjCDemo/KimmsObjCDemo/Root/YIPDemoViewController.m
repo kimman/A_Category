@@ -6,7 +6,7 @@
 //
 
 #import "YIPDemoViewController.h"
-#import <Masonry/Masonry.h>
+#import "YIPTableViewController.h"
 
 @interface YIPDemoViewController ()
 
@@ -19,14 +19,56 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    UILabel *label = [UILabel new];
-    label.text = @"Hi~ I am Kimm";
-    [self.view addSubview:label];
-    [label mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.equalTo(self.view);
-    }];
+    self.title = @"首页";
 }
 
+
+- (NSArray *)sectionJson {
+    return @[
+        @{
+            @"title": @"基础",
+            @"rows": @[
+                @{
+                    @"title": @"WeakTimer",
+                    @"viewController": @"abc"
+                },
+            ],
+        },
+        @{
+            @"title": @"功能",
+            @"rows": @[
+                @{
+                    @"title": @"音视频",
+                    @"viewController": @"YIPFunctionViewController"
+                },
+                @{
+                    @"title": @"登录",
+                },
+            ],
+        },
+        @{
+            @"title": @"效果",
+            @"rows": @[
+                @{
+                    @"title": @"动画",
+                },
+            ],
+        },
+        @{
+            @"title": @"组件",
+            @"rows": @[
+                @{
+                    @"title": @"验证码",
+                },
+            ],
+        },
+    ];
+}
+
+- (void)didSelectedItem:(YIPTableViewCellItem *)item {
+    Class cls = NSClassFromString(item.viewController);
+    UIViewController *ctrl = [[cls alloc] init];
+    [self.navigationController pushViewController:ctrl animated:YES];
+}
 
 @end

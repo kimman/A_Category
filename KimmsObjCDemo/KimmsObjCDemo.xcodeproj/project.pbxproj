@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D112EF82936FB5800E039FB /* YIPAudioVedioDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D112EF72936FB5800E039FB /* YIPAudioVedioDemoViewController.m */; };
+		3D112EFB2936FBCE00E039FB /* YIPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D112EFA2936FBCE00E039FB /* YIPTableViewController.m */; };
+		3D269BEB293313C500461A91 /* YIPTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D269BEA293313C500461A91 /* YIPTableViewRow.m */; };
+		3D269BEE2933148100461A91 /* YIPTableViewCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D269BED2933148100461A91 /* YIPTableViewCellItem.m */; };
+		3D269BF12933149900461A91 /* YIPTableViewSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D269BF02933149900461A91 /* YIPTableViewSectionItem.m */; };
 		3D687617293113EF0006DD48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687616293113EF0006DD48 /* AppDelegate.m */; };
 		3D68761D293113EF0006DD48 /* YIPDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68761C293113EF0006DD48 /* YIPDemoViewController.m */; };
 		3D687622293113F00006DD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D687621293113F00006DD48 /* Assets.xcassets */; };
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D112EF62936FB5800E039FB /* YIPAudioVedioDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPAudioVedioDemoViewController.h; sourceTree = "<group>"; };
+		3D112EF72936FB5800E039FB /* YIPAudioVedioDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPAudioVedioDemoViewController.m; sourceTree = "<group>"; };
+		3D112EF92936FBCE00E039FB /* YIPTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPTableViewController.h; sourceTree = "<group>"; };
+		3D112EFA2936FBCE00E039FB /* YIPTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPTableViewController.m; sourceTree = "<group>"; };
+		3D269BE9293313C500461A91 /* YIPTableViewRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPTableViewRow.h; sourceTree = "<group>"; };
+		3D269BEA293313C500461A91 /* YIPTableViewRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPTableViewRow.m; sourceTree = "<group>"; };
+		3D269BEC2933148100461A91 /* YIPTableViewCellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPTableViewCellItem.h; sourceTree = "<group>"; };
+		3D269BED2933148100461A91 /* YIPTableViewCellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPTableViewCellItem.m; sourceTree = "<group>"; };
+		3D269BEF2933149900461A91 /* YIPTableViewSectionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPTableViewSectionItem.h; sourceTree = "<group>"; };
+		3D269BF02933149900461A91 /* YIPTableViewSectionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPTableViewSectionItem.m; sourceTree = "<group>"; };
 		3D687612293113EF0006DD48 /* KimmsObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimmsObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D687615293113EF0006DD48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D687616293113EF0006DD48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +94,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D112EF32936FAEC00E039FB /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				3D112EF52936FB2A00E039FB /* Main */,
+				3D112EF42936FB0F00E039FB /* Audio */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		3D112EF42936FB0F00E039FB /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		3D112EF52936FB2A00E039FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3D112EF62936FB5800E039FB /* YIPAudioVedioDemoViewController.h */,
+				3D112EF72936FB5800E039FB /* YIPAudioVedioDemoViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		3D269BE52932134500461A91 /* Root */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +128,38 @@
 				3D68761C293113EF0006DD48 /* YIPDemoViewController.m */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		3D269BE62933129F00461A91 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				3D112EF32936FAEC00E039FB /* Function */,
+				3D269BE72933131700461A91 /* Basic */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		3D269BE72933131700461A91 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				3D269BE82933132700461A91 /* Table */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		3D269BE82933132700461A91 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				3D269BE9293313C500461A91 /* YIPTableViewRow.h */,
+				3D269BEA293313C500461A91 /* YIPTableViewRow.m */,
+				3D269BEC2933148100461A91 /* YIPTableViewCellItem.h */,
+				3D269BED2933148100461A91 /* YIPTableViewCellItem.m */,
+				3D269BEF2933149900461A91 /* YIPTableViewSectionItem.h */,
+				3D269BF02933149900461A91 /* YIPTableViewSectionItem.m */,
+				3D112EF92936FBCE00E039FB /* YIPTableViewController.h */,
+				3D112EFA2936FBCE00E039FB /* YIPTableViewController.m */,
+			);
+			path = Table;
 			sourceTree = "<group>";
 		};
 		3D687609293113EF0006DD48 = {
@@ -115,6 +187,7 @@
 		3D687614293113EF0006DD48 /* KimmsObjCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D269BE62933129F00461A91 /* Sections */,
 				3D269BE52932134500461A91 /* Root */,
 				3D687621293113F00006DD48 /* Assets.xcassets */,
 				3D687626293113F00006DD48 /* Info.plist */,
@@ -331,6 +404,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D68761D293113EF0006DD48 /* YIPDemoViewController.m in Sources */,
+				3D269BEB293313C500461A91 /* YIPTableViewRow.m in Sources */,
+				3D269BEE2933148100461A91 /* YIPTableViewCellItem.m in Sources */,
+				3D112EF82936FB5800E039FB /* YIPAudioVedioDemoViewController.m in Sources */,
+				3D112EFB2936FBCE00E039FB /* YIPTableViewController.m in Sources */,
+				3D269BF12933149900461A91 /* YIPTableViewSectionItem.m in Sources */,
 				3D687617293113EF0006DD48 /* AppDelegate.m in Sources */,
 				3D687628293113F00006DD48 /* main.m in Sources */,
 			);
