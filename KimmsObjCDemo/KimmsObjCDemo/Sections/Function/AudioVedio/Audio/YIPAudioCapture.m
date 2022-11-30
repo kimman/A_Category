@@ -73,7 +73,7 @@
         }
         
         // 开始采集。
-        OSStatus startStatus = AudioOutputUnitStart(weakSelf.audioCaptureInstance);
+        OSStatus startStatus = AudioOutputUnitStart(self.audioCaptureInstance);
         if (startStatus != noErr) {
             // 捕捉并回调开始采集时的错误。
             [weakSelf callbackError:[NSError errorWithDomain:NSStringFromClass([YIPAudioCapture class]) code:startStatus userInfo:nil]];
@@ -90,18 +90,20 @@
     
     __weak typeof(self) weakSelf = self;
     dispatch_async(_captureQueue, ^{
-        if (weakSelf.audioCaptureInstance) {
+        __strong typeof(weakSelf) self = weakSelf;
+        if (self.audioCaptureInstance) {
             // 停止采集。
-            OSStatus stopStatus = AudioOutputUnitStop(weakSelf.audioCaptureInstance);
+            OSStatus stopStatus = AudioOutputUnitStop(self.audioCaptureInstance);
             if (stopStatus != noErr) {
                 // 捕捉并回调停止采集时的错误。
-                [weakSelf callbackError:[NSError errorWithDomain:NSStringFromClass([YIPAudioConfig class]) code:stopStatus userInfo:nil]];
+                [self callbackError:[NSError errorWithDomain:NSStringFromClass([YIPAudioConfig class]) code:stopStatus userInfo:nil]];
             }
         }
     });
 }
 
 #pragma mark - Utility
+
 - (void)setupAudioCaptureInstance:(NSError **)error {
     // 1.设置音频组件描述
     AudioComponentDescription acd = {
@@ -145,7 +147,7 @@
     // 采样率
     asbd.mSampleRate = self.config.sampleRate;
     self.audioFormat = asbd;
-    status = AudioUnitSetProperty(_audioCaptureInstance, kAudioUnitProperty_StreamFormat, kAudioUnitType_Output, 1, &asbd, sizeof(asbd));
+    status = AudioUnitSetProperty(_audioCaptureInstance, kAudioUnitProperty_StreamFormat, kAudioUnitScope_Output, 1, &asbd, sizeof(asbd));
     if (status != noErr) {
         *error = [NSError errorWithDomain:NSStringFromClass(self.class) code:status userInfo:nil];
         return;
