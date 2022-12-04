@@ -22,6 +22,9 @@
 		3D687632293113F10006DD48 /* KimmsObjCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687631293113F10006DD48 /* KimmsObjCDemoTests.m */; };
 		3D68763C293113F10006DD48 /* KimmsObjCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68763B293113F10006DD48 /* KimmsObjCDemoUITests.m */; };
 		3D68763E293113F10006DD48 /* KimmsObjCDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68763D293113F10006DD48 /* KimmsObjCDemoUITestsLaunchTests.m */; };
+		3DED8525293A4DF000E11CA2 /* YIPAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DED8524293A4DF000E11CA2 /* YIPAudioEncoder.m */; };
+		3DED8528293A501100E11CA2 /* YIPAudioEncoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DED8527293A501100E11CA2 /* YIPAudioEncoderViewController.m */; };
+		3DED852B293A508100E11CA2 /* YIPAudioTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DED852A293A508100E11CA2 /* YIPAudioTools.m */; };
 		94A244E35DFABF3527C446F8 /* Pods_KimmsObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD47DB1AD44596863A8493BC /* Pods_KimmsObjCDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +75,12 @@
 		3D687637293113F10006DD48 /* KimmsObjCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimmsObjCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D68763B293113F10006DD48 /* KimmsObjCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KimmsObjCDemoUITests.m; sourceTree = "<group>"; };
 		3D68763D293113F10006DD48 /* KimmsObjCDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KimmsObjCDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		3DED8523293A4DF000E11CA2 /* YIPAudioEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPAudioEncoder.h; sourceTree = "<group>"; };
+		3DED8524293A4DF000E11CA2 /* YIPAudioEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPAudioEncoder.m; sourceTree = "<group>"; };
+		3DED8526293A501100E11CA2 /* YIPAudioEncoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPAudioEncoderViewController.h; sourceTree = "<group>"; };
+		3DED8527293A501100E11CA2 /* YIPAudioEncoderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPAudioEncoderViewController.m; sourceTree = "<group>"; };
+		3DED8529293A508100E11CA2 /* YIPAudioTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPAudioTools.h; sourceTree = "<group>"; };
+		3DED852A293A508100E11CA2 /* YIPAudioTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPAudioTools.m; sourceTree = "<group>"; };
 		AD47DB1AD44596863A8493BC /* Pods_KimmsObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KimmsObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5976B9B8063D34136BED379 /* Pods-KimmsObjCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KimmsObjCDemo.debug.xcconfig"; path = "Target Support Files/Pods-KimmsObjCDemo/Pods-KimmsObjCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E8C85A76D8E1647AB632D24E /* Pods-KimmsObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KimmsObjCDemo.release.xcconfig"; path = "Target Support Files/Pods-KimmsObjCDemo/Pods-KimmsObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,8 +188,14 @@
 				3D3F96D629373FCD004983FF /* YIPAudioConfig.m */,
 				3D3F96D82937425D004983FF /* YIPAudioCapture.h */,
 				3D3F96D92937425D004983FF /* YIPAudioCapture.m */,
+				3DED8523293A4DF000E11CA2 /* YIPAudioEncoder.h */,
+				3DED8524293A4DF000E11CA2 /* YIPAudioEncoder.m */,
 				3D3F96DB293758E7004983FF /* YIPAudioCaptureViewController.h */,
 				3D3F96DC293758E7004983FF /* YIPAudioCaptureViewController.m */,
+				3DED8526293A501100E11CA2 /* YIPAudioEncoderViewController.h */,
+				3DED8527293A501100E11CA2 /* YIPAudioEncoderViewController.m */,
+				3DED8529293A508100E11CA2 /* YIPAudioTools.h */,
+				3DED852A293A508100E11CA2 /* YIPAudioTools.m */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -427,13 +442,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D68761D293113EF0006DD48 /* YIPDemoViewController.m in Sources */,
+				3DED8528293A501100E11CA2 /* YIPAudioEncoderViewController.m in Sources */,
 				3D269BEB293313C500461A91 /* YIPTableViewRow.m in Sources */,
 				3D3F96DA2937425D004983FF /* YIPAudioCapture.m in Sources */,
 				3D269BEE2933148100461A91 /* YIPTableViewCellItem.m in Sources */,
+				3DED852B293A508100E11CA2 /* YIPAudioTools.m in Sources */,
 				3D112EF82936FB5800E039FB /* YIPAudioVedioDemoViewController.m in Sources */,
 				3D3F96D729373FCD004983FF /* YIPAudioConfig.m in Sources */,
 				3D112EFB2936FBCE00E039FB /* YIPTableViewController.m in Sources */,
 				3D269BF12933149900461A91 /* YIPTableViewSectionItem.m in Sources */,
+				3DED8525293A4DF000E11CA2 /* YIPAudioEncoder.m in Sources */,
 				3D687617293113EF0006DD48 /* AppDelegate.m in Sources */,
 				3D3F96DD293758E7004983FF /* YIPAudioCaptureViewController.m in Sources */,
 				3D687628293113F00006DD48 /* main.m in Sources */,

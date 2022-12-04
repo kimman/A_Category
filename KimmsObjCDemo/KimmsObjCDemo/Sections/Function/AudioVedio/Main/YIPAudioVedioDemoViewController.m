@@ -29,6 +29,10 @@
                     @"viewController": @"YIPAudioCaptureViewController"
                 },
                 @{
+                    @"title": @"AAC编码",
+                    @"viewController": @"YIPAudioEncoderViewController"
+                },
+                @{
                     @"title": @"音频播放",
                     @"viewController": @"abc"
                 },
