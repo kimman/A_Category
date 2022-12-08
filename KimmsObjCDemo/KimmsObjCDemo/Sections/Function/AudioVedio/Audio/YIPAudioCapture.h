@@ -11,6 +11,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
+/// 音频采集模块
 @interface YIPAudioCapture : NSObject
 
 

@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
+/// 音频编码模块
 @interface YIPAudioEncoder : NSObject
 
 + (instancetype)new NS_UNAVAILABLE;

@@ -9,6 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
+/// 音频采集配置
 @interface YIPAudioConfig : NSObject
 
 

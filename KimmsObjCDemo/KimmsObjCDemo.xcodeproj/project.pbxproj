@@ -15,6 +15,8 @@
 		3D3F96D729373FCD004983FF /* YIPAudioConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F96D629373FCD004983FF /* YIPAudioConfig.m */; };
 		3D3F96DA2937425D004983FF /* YIPAudioCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F96D92937425D004983FF /* YIPAudioCapture.m */; };
 		3D3F96DD293758E7004983FF /* YIPAudioCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F96DC293758E7004983FF /* YIPAudioCaptureViewController.m */; };
+		3D41B121293E2BE6001D41C6 /* YIPMuxerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41B120293E2BE6001D41C6 /* YIPMuxerConfig.m */; };
+		3D41B128293E2EE5001D41C6 /* YIPMP4Muxer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41B127293E2EE5001D41C6 /* YIPMP4Muxer.m */; };
 		3D687617293113EF0006DD48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D687616293113EF0006DD48 /* AppDelegate.m */; };
 		3D68761D293113EF0006DD48 /* YIPDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68761C293113EF0006DD48 /* YIPDemoViewController.m */; };
 		3D687622293113F00006DD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D687621293113F00006DD48 /* Assets.xcassets */; };
@@ -62,6 +64,11 @@
 		3D3F96D92937425D004983FF /* YIPAudioCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPAudioCapture.m; sourceTree = "<group>"; };
 		3D3F96DB293758E7004983FF /* YIPAudioCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPAudioCaptureViewController.h; sourceTree = "<group>"; };
 		3D3F96DC293758E7004983FF /* YIPAudioCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPAudioCaptureViewController.m; sourceTree = "<group>"; };
+		3D41B11F293E2BE6001D41C6 /* YIPMuxerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPMuxerConfig.h; sourceTree = "<group>"; };
+		3D41B120293E2BE6001D41C6 /* YIPMuxerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPMuxerConfig.m; sourceTree = "<group>"; };
+		3D41B125293E2D1B001D41C6 /* YIPMediaBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPMediaBase.h; sourceTree = "<group>"; };
+		3D41B126293E2EE5001D41C6 /* YIPMP4Muxer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YIPMP4Muxer.h; sourceTree = "<group>"; };
+		3D41B127293E2EE5001D41C6 /* YIPMP4Muxer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIPMP4Muxer.m; sourceTree = "<group>"; };
 		3D687612293113EF0006DD48 /* KimmsObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimmsObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D687615293113EF0006DD48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D687616293113EF0006DD48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -190,6 +197,11 @@
 				3D3F96D92937425D004983FF /* YIPAudioCapture.m */,
 				3DED8523293A4DF000E11CA2 /* YIPAudioEncoder.h */,
 				3DED8524293A4DF000E11CA2 /* YIPAudioEncoder.m */,
+				3D41B125293E2D1B001D41C6 /* YIPMediaBase.h */,
+				3D41B11F293E2BE6001D41C6 /* YIPMuxerConfig.h */,
+				3D41B120293E2BE6001D41C6 /* YIPMuxerConfig.m */,
+				3D41B126293E2EE5001D41C6 /* YIPMP4Muxer.h */,
+				3D41B127293E2EE5001D41C6 /* YIPMP4Muxer.m */,
 				3D3F96DB293758E7004983FF /* YIPAudioCaptureViewController.h */,
 				3D3F96DC293758E7004983FF /* YIPAudioCaptureViewController.m */,
 				3DED8526293A501100E11CA2 /* YIPAudioEncoderViewController.h */,
@@ -449,9 +461,11 @@
 				3DED852B293A508100E11CA2 /* YIPAudioTools.m in Sources */,
 				3D112EF82936FB5800E039FB /* YIPAudioVedioDemoViewController.m in Sources */,
 				3D3F96D729373FCD004983FF /* YIPAudioConfig.m in Sources */,
+				3D41B121293E2BE6001D41C6 /* YIPMuxerConfig.m in Sources */,
 				3D112EFB2936FBCE00E039FB /* YIPTableViewController.m in Sources */,
 				3D269BF12933149900461A91 /* YIPTableViewSectionItem.m in Sources */,
 				3DED8525293A4DF000E11CA2 /* YIPAudioEncoder.m in Sources */,
+				3D41B128293E2EE5001D41C6 /* YIPMP4Muxer.m in Sources */,
 				3D687617293113EF0006DD48 /* AppDelegate.m in Sources */,
 				3D3F96DD293758E7004983FF /* YIPAudioCaptureViewController.m in Sources */,
 				3D687628293113F00006DD48 /* main.m in Sources */,
